@@ -73,27 +73,27 @@ A modell a következő feladatokat végzi el:
 ### Korrelációs Mátrix
 A célváltozóval (pick) való kapcsolat ábrázolása:
 
-![Korrelációs Hőtérkép](heat_map.png)
+![Korrelációs Hőtérkép](images/heat_map.png)
 
 ### Scatter Plotok
 A valós és előrejelzett nyers predikció értékek összehasonlítása:
 - **Validáció**:
-  ![Scatter Validáció](nyers_val.png)
+  ![Scatter Validáció](images/nyers_val.png)
 - **Teszt**:
-  ![Scatter Teszt](nyers_teszt.png)
+  ![Scatter Teszt](images/nyers_teszt.png)
 
 ### Predikciók Vizualizálása
 Sorrend felállítása az eredeti és prediktált pick értékek alapján:
 - **Validációs halmaz**:
-  ![Validációs Predikciók](order_val.png)
+  ![Validációs Predikciók](images/order_val.png)
 - **Teszthalmaz**:
-  ![Teszthalmaz Predikciók](order_teszt.png)
+  ![Teszthalmaz Predikciók](images/order_teszt.png)
 
 ### Eltérések Ábrázolása
 Az eredeti és preditált pick értékek közötti különséget szemléltető ábrák:
 - **Validációs halmaz**:
-  ![Eltérések Validáció](miss_val.png)
+  ![Eltérések Validáció](images/miss_val.png)
 - **Teszthalmaz**:
-  ![Eltérések Teszt](miss_teszt.png)
+  ![Eltérések Teszt](images/miss_teszt.png)
 
 
