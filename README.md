@@ -67,6 +67,10 @@ A modell a következő feladatokat végzi el:
 
 ### Eredmények
 - Validációs és teszt predikciók MAE és R² értékei kiemelve.
+- Validation MAE: 8.994453525543213
+- Validation R²: 0.5080301474784779
+- Test MAE: 8.240730194818406
+- Test R²: 0.6052464262021787
 
 ## Vizualizációk
 
@@ -74,6 +78,12 @@ A modell a következő feladatokat végzi el:
 A célváltozóval (pick) való kapcsolat ábrázolása:
 
 ![Korrelációs Hőtérkép](images/heat_map.png)
+
+- Korreláció erdményei lapján tanításra felhasznált változók:
+
+features =  ['Ortg', 'eFG', 'TS_per', 'FTM', 'FTA', 'twoPM', 'twoP_per', 'stl_per', 
+            'ftr', 'porpag', 'adjoe', 'drtg', 'adrtg', 'dporpag', 'stops',
+            'bpm', 'obpm', 'dbpm', 'gbpm', 'ogbpm', 'dgbpm', 'oreb', 'stl', 'blk', 'pts_per_min']
 
 ### Scatter Plotok
 A valós és előrejelzett nyers predikció értékek összehasonlítása:
